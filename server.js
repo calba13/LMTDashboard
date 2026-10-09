@@ -10,7 +10,7 @@ wss.on('connection', (ws) => {
     // Handle incoming messages here
   });
 
-  ws.send(`Hello from ${os.hostname()}`);
+  ws.send(`Hey there! from ${os.hostname()}`);
 });
 
 console.log('Server started on port 8080');
